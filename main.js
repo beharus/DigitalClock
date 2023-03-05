@@ -24,7 +24,7 @@ function currentTime() {
   const hours = data.getHours();
   const mins = data.getMinutes();
   const secs = data.getSeconds();
-  let h = null;
+  let h = hours;
   let m = mins;
   let s = secs;
   let seccion = "AM";
